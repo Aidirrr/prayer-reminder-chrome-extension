@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prayer Reminder Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Settings</h1>
+
+        <h2>Location</h2>
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="e.g., London">
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="e.g., United Kingdom">
+
+        <h2>Notifications</h2>
+        <div id="notifications">
+            <label><input type="checkbox" id="Fajr"> Fajr</label>
+            <label><input type="checkbox" id="Dhuhr"> Dhuhr</label>
+            <label><input type="checkbox" id="Asr"> Asr</label>
+            <label><input type="checkbox" id="Maghrib"> Maghrib</label>
+            <label><input type="checkbox" id="Isha"> Isha</label>
+        </div>
+
+        <br>
+        <button id="save">Save Settings</button>
+        <div id="status"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>

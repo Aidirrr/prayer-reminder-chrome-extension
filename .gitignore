@@ -1,0 +1,12 @@
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Node.js dependencies (if you add them later)
+node_modules/
