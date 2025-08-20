@@ -23,3 +23,9 @@ A simple Chrome extension that provides daily prayer times and sends notificatio
 
 - Click on the extension icon to see today's prayer times.
 - Click the "Settings" link in the popup, or right-click the extension icon and choose "Options" to configure your location (City and Country) and notification preferences.
+
+## Contributing & Credits
+
+This project was vibe-coded with the assistance of Gemini Code Assist.
+
+Feel free to fork this repository, submit pull requests, and help improve it!
